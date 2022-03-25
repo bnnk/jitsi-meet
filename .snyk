@@ -1,0 +1,72 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - amplitude-js > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - '@svgr/webpack > @babel/core > lodash':
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - '@svgr/webpack > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > metro-babel-register > @babel/register > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > metro-react-native-babel-transformer > @babel/core > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > fbjs-scripts > @babel/core > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli-platform-ios > @react-native-community/cli-tools > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > inquirer > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > metro-react-native-babel-transformer > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > fbjs-scripts > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native-svg-transformer > @svgr/core > @svgr/plugin-jsx > @babel/core > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > metro-react-native-babel-transformer > metro-babel-transformer > @babel/core > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro-react-native-babel-transformer > @babel/core > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > metro-react-native-babel-transformer > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > fbjs-scripts > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native-svg-transformer > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > metro-react-native-babel-transformer > metro-babel-transformer > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro-react-native-babel-transformer > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro > metro-babel-register > @babel/register > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro > metro-babel-transformer > @babel/core > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro-react-native-babel-transformer > metro-babel-transformer > @babel/core > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native-svg-transformer > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > metro-react-native-babel-transformer > metro-babel-transformer > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro-react-native-babel-transformer > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro > metro-babel-transformer > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro-react-native-babel-transformer > metro-babel-transformer > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro-config > metro > metro-babel-register > @babel/register > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro-config > metro > metro-babel-transformer > @babel/core > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro > metro-babel-transformer > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro-react-native-babel-transformer > metro-babel-transformer > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro-config > metro > metro-babel-transformer > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
+    - react-native > @react-native-community/cli > metro-config > metro > metro-babel-transformer > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T21:25:47.533Z'
